@@ -20,6 +20,11 @@ h1 {
     font-weight: 600;
 }
 
+h2 {
+    color: #1d7260;
+    font-weight: 300;
+}
+
 a {
     text-decoration: none;
     color: #feb24d;
@@ -36,10 +41,10 @@ p {
 
 .card-white{
     background-color:ghostwhite;
-    padding: 40px;
+    padding: 50px 50px;
     box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
     border-radius: 4px;
-    margin: 20px 0px;
+    margin: 20px 20px;
     text-align: center;
 }
 
@@ -60,6 +65,22 @@ p {
 
 ul{
   list-style: none;
+  text-align: center ;
+}
+
+li {
+    display: inline;
+    text-align: -webkit-match-parent;
+}
+.list-inline li {
+    display: inline;
+    padding: 10px;
+}
+
+i{
+  width: 20px;
+  height: 20px;
+
 }
 
 @media (max-width: 960px) {
